@@ -1,0 +1,1 @@
+.net 为pajek文件

@@ -21,7 +21,6 @@ import urllib
 # print (nx.draw(g))
 # =============================================================================
 
-#%curl http://www.livejournal.com/misc/fdata.bml?user=valerois
 
 
 def read_lj_friends(g,name):
@@ -45,8 +44,8 @@ def read_lj_friends(g,name):
 g = nx.Graph()
 read_lj_friends(g,"valerois")
 lens = len(g) #计算节点数量
-#print(lens)
-#print(nx.draw(g))
+print(lens)
+print(nx.draw(g))
 
 
 

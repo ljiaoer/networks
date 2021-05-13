@@ -4,7 +4,7 @@ Created on Mon May 10 13:38:06 2021
 
 @author: lijiaojiao
 
-degree centrality
+社会网络分析之中心性分析：
 度数中心性（degree centrality）、接近中心性（clonessness centrality）、中介中心性（betweenness centrality）、特征向量中心性（eigenvector_centrality）以及PageRank
 
 """
@@ -112,7 +112,7 @@ name4 = [x[0] for x in es[:10]]
 name5 = [x[0] for x in pr[:10]]
 # 使用Python的set函数将五组列表拼到一起
 names = list(set(name1) | set(name2) | set(name3) | set(name4) | set(name5))
-#创建中心性列表。
+#创建中心性列表。:
 table = [[name,d[name],c[name],b[name],e[name],p[name]] for name in names]
 print("五种中心性列表为：" )
 print(table)
